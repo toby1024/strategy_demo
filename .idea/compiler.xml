@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="compare" />
         <module name="strategy_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="compare" target="1.5" />
       <module name="strategy_demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
